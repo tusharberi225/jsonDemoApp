@@ -9,6 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *txtname;
+@property (strong, nonatomic) IBOutlet UITextField *txtmobile;
+@property (strong, nonatomic) IBOutlet UITextField *txtdob;
+@property (strong, nonatomic) IBOutlet UITextField *txtaddress;
+- (IBAction)btnsave:(UIButton *)sender;
+
+
+
+
+
+
+-(void)requestdata;
 
 
 @end

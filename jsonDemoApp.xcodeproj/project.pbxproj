@@ -15,6 +15,7 @@
 		08F574EB2164D7EB007D3B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F574EA2164D7EB007D3B36 /* main.m */; };
 		08F574F52164D7EB007D3B36 /* jsonDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F574F42164D7EB007D3B36 /* jsonDemoAppTests.m */; };
 		08F575002164D7EB007D3B36 /* jsonDemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F574FF2164D7EB007D3B36 /* jsonDemoAppUITests.m */; };
+		08F575122164EF6A007D3B36 /* webservices.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F575112164EF6A007D3B36 /* webservices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		08F574FB2164D7EB007D3B36 /* jsonDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jsonDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F574FF2164D7EB007D3B36 /* jsonDemoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jsonDemoAppUITests.m; sourceTree = "<group>"; };
 		08F575012164D7EB007D3B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F575102164EF6A007D3B36 /* webservices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webservices.h; sourceTree = "<group>"; };
+		08F575112164EF6A007D3B36 /* webservices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webservices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				08F574DC2164D7E8007D3B36 /* AppDelegate.m */,
 				08F574DE2164D7E8007D3B36 /* ViewController.h */,
 				08F574DF2164D7E8007D3B36 /* ViewController.m */,
+				08F575102164EF6A007D3B36 /* webservices.h */,
+				08F575112164EF6A007D3B36 /* webservices.m */,
 				08F574E12164D7E8007D3B36 /* Main.storyboard */,
 				08F574E42164D7EB007D3B36 /* Assets.xcassets */,
 				08F574E62164D7EB007D3B36 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				08F574E02164D7E8007D3B36 /* ViewController.m in Sources */,
 				08F574EB2164D7EB007D3B36 /* main.m in Sources */,
+				08F575122164EF6A007D3B36 /* webservices.m in Sources */,
 				08F574DD2164D7E8007D3B36 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
